@@ -35,7 +35,14 @@
             style="font-family: Inter, sans-serif; margin-bottom: 0px"
           >
             Portfolio is Coming SOON!
+            
           </h1>
+          <p
+            class="lead font-monospace text-uppercase fs-6 fw-light"
+            style="font-family: Inter, sans-serif"
+          >
+            But For now You will be redirected to the Blog in <div id="countdown"></div>
+          </p>
           <p
             class="lead font-monospace text-uppercase fs-6 fw-light"
             style="font-family: Inter, sans-serif"
@@ -47,9 +54,27 @@
               >M-SYR@OUTLOOK.SA</a
             >&nbsp;
           </p>
+          
         </div>
       </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      
+      var timeleft = 5;
+      var downloadTimer = setInterval(function () {
+        if (timeleft <= 0) {
+          clearInterval(downloadTimer);
+        } else {
+          document.getElementById("countdown").innerHTML =
+            timeleft + " Seconds";
+        }
+        timeleft -= 1;
+      }, 1000);
+      window.setTimeout(function () {
+        // Move to a new location or you can do something else
+        window.location.href = "https://vikingmajd.blogspot.com";
+      }, 5000);
+    </script>
   </body>
 </html>
