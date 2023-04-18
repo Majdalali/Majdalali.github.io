@@ -2,6 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
+  "export": "next export",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -34,4 +35,5 @@
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.7"
   }
+  
 }
