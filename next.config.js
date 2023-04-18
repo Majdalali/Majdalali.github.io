@@ -3,13 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
 };
 module.exports = {
-  async rewrites() {
-    return [
-      {
-        source: "/me",
-        destination: "/components/profile",
-      },
-    ];
+  images: {
+    unoptimized: true,
   },
 };
 
