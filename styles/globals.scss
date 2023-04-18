@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --swiper-navigation-color: #070707;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  --bg-main: rgba(252, 248, 232, 1);
+  --bg-secondary: rgba(180, 212, 180, 1);
+  --bg-hero: rgba(180, 212, 180, 1);
+  --bg-alter: rgba(250, 255, 255, 1);
+  --bg-alterTwo:rgba(149, 188, 149, 1);
+  --font-main: "Inter";
+  --font-secondary: "Roboto";
+  --font-draw: "Akaya Telivigala";
+  --color-dark: rgba(23, 21, 21, 1);
+  --color-thin: rgba(53, 56, 71, 1);
+  --color-light: rgba(242, 248, 255, 1);
+
+}
+
+:root{
+  color-scheme: light;
+
+    /* set defaults */
+  
+  --bgMain: var(--bg-main);
+  --bgSec: var(--bg-secondary);
+  --bgHero: var(--bg-hero);
+  --bgAlter: var(--bg-alter);
+  --bgAlterTwo: var(--bg-alterTwo);
+  --fontMain: var(--font-main);
+  --fontSec: var(--font-secondary);
+  --fontDraw: var(--font-draw);
+  --colorDark: var(--color-dark);
+  --colorThin: var(--color-thin);
+  --colorLight: var(--color-light);
+
+}
+@media(prefers-color-scheme: light) {
+  :root{
+    color-scheme: light;
+  
+      /* set defaults */
+    
+    --bgMain: var(--bg-main);
+    --bgSec: var(--bg-secondary);
+    --bgHero: var(--bg-hero);
+    --bgAlter: var(--bg-alter);
+    --bgAlterTwo: var(--bg-alterTwo);
+    --fontMain: var(--font-main);
+    --fontSec: var(--font-secondary);
+    --fontDraw: var(--font-draw);
+    --colorDark: var(--color-dark);
+    --colorThin: var(--color-thin);
+    --colorLight: var(--color-light);
+  }
+}
+[data-scheme="light"] {
+  color-scheme: light;
+--bgMain: var(--bg-main);
+--bgSec: var(--bg-secondary);
+--bgHero: var(--bg-hero);
+--bgAlter: var(--bg-alter);
+--bgAlterTwo: var(--bg-alterTwo);
+--fontMain: var(--font-main);
+--fontSec: var(--font-secondary);
+--fontDraw: var(--font-draw);
+--colorDark: var(--color-dark);
+--colorThin: var(--color-thin);
+--colorLight: var(--color-light);
+}
+
+// [data-theme="dark"] {
+  // not yet
+// }
