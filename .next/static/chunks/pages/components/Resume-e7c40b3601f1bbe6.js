@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[544],{5792:function(n,_,u){(window.__NEXT_P=window.__NEXT_P||[]).push(["/components/Resume",function(){return u(8960)}])}},function(n){n.O(0,[445,907,13,57,862,960,774,888,179],function(){return n(n.s=5792)}),_N_E=n.O()}]);

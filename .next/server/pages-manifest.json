@@ -1,0 +1,17 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/Login": "pages/Login.html",
+  "/Resume": "pages/Resume.html",
+  "/api/hello": "pages/api/hello.js",
+  "/auth/register": "pages/auth/register.html",
+  "/components/Footer": "pages/components/Footer.html",
+  "/components/Hero": "pages/components/Hero.html",
+  "/components/Nav": "pages/components/Nav.html",
+  "/components/Resume": "pages/components/Resume.html",
+  "/components/profile": "pages/components/profile.html",
+  "/": "pages/index.html",
+  "/auth/login": "pages/auth/login.js",
+  "/404": "pages/404.html"
+}
