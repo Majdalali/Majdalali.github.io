@@ -1,6 +1,5 @@
 import "../styles/globals.scss";
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
-import { AuthContextProvider } from '../context/AuthContext'
 
 // Chakra
 const theme = extendTheme({
@@ -13,9 +12,7 @@ const theme = extendTheme({
 function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider theme={theme}>
-      <AuthContextProvider>
       <Component {...pageProps} />
-      </AuthContextProvider>
     </ChakraProvider>
   );
 }
