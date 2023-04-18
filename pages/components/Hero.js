@@ -1,7 +1,7 @@
 // Next JS
 import styles from "../../styles/Hero.module.scss";
 import clsx from "clsx";
-import { Image, Box, Container } from "@chakra-ui/react";
+import { Box, Container } from "@chakra-ui/react";
 import { Avatar, Badge, Text, Link } from "@chakra-ui/react";
 // Swiper
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -115,10 +115,6 @@ const Hero = () => {
                   <p>Boring Is not cool. Be cool! 😎</p>
                 </div>
               </SwiperSlide>
-              {/* <SwiperSlide className={styles.swiperSlide}>
-                <Image src="/mypic.png" objectFit="cover" alt="Author" />
-              </SwiperSlide>
-              <SwiperSlide className={styles.swiperSlide}>Slide 3</SwiperSlide> */}
             </Swiper>
           </div>
           <div
