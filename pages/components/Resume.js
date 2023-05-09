@@ -53,7 +53,8 @@ const Resume = () => {
                 <div className="TSSocials flex-[2_2_0%] flex gap-2 pb-4 justify-end items-end flex-row">
                   <a
                     className="text-lg p-3 border-gray-200 border rounded-full "
-                    href="#"
+                    target="_blank"
+                    href="https://dribbble.com/majdalali"
                   >
                     <FaDribbble />
                   </a>

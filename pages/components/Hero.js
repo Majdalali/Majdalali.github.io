@@ -285,7 +285,7 @@ const Hero = () => {
                     "w-1/2 h-full flex justify-center items-center"
                   )}
                 >
-                  <a target="_blank" href="https://dribbble.com/MajdSS">
+                  <a target="_blank" href="https://dribbble.com/majdalali">
                     <FaDribbble />
                   </a>
                 </div>
