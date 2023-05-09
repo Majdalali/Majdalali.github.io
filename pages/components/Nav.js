@@ -46,7 +46,7 @@ const Nav = () => {
                     )}
                   >
                     <li>
-                      <a href="#">Resume</a>
+                      <Link href="/Resume">Resume</Link>
                     </li>
                   </ul>
                 </DrawerBody>
