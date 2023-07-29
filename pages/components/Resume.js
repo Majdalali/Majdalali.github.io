@@ -245,7 +245,7 @@ const Resume = () => {
                           fontWeight="bold"
                           fontFamily="Inter"
                         >
-                          Portfolio [MajdAlali.me]
+                          Portfolio [https://majdalali.github.io/]
                         </Text>
                         <Text
                           fontSize="lg"
